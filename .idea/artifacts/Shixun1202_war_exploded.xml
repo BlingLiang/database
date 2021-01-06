@@ -6,6 +6,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Shixun1202" />
+          <element id="module-output" name="database" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
@@ -26,6 +27,7 @@
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.4" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="database/web/Web" />
     </root>
   </artifact>
 </component>
