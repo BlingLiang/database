@@ -6,7 +6,6 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Shixun1202" />
-          <element id="module-output" name="Shixun1202final" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
