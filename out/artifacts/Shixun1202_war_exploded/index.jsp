@@ -8,6 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%--    <title>$Title$</title>--%>
     <%--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">--%>
     <%--    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">--%>
@@ -101,7 +105,7 @@
 </script>
 <div class="login_bg">
     <div id="login">
-        <div class="login_form visible-lg">
+        <div class="login_form">
             <form id="indexForm1" action="${pageContext.request.contextPath}/Log/validate" method="post">
                 <p class="form_word"><span class="large-fontsize">登陆</span>/<span
                         onclick="switchLogin('register')"><a style="cursor:pointer">注册</a></span></p>
@@ -122,7 +126,7 @@
 
     </div>
     <div id="register" style="display: none">
-        <div class="login_form visible-lg">
+        <div class="login_form">
             <form id="indexForm2" action="${pageContext.request.contextPath}/Log/register" method="post">
                 <p class="form_word"><span onclick="switchLogin('login')"> <a style="cursor:pointer"> 登陆</a></span>
                     /<span
