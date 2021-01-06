@@ -12,7 +12,7 @@
     <link href="../static/css/style.css" type="text/css" rel="stylesheet">
     <script src="../static/js/jquery-3.1.0.min.js"></script>
     <script src="../static/js/discussion.js"></script>
-    <script src="../static/js/headerForStu.js"></script>
+    <script src="../static/js/headerForTeacher.js"></script>
 </head>
 
 <body>        <!--头部-->

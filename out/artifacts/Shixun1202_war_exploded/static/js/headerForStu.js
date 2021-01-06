@@ -13,8 +13,6 @@ $().ready(function(e) {
         '<span class="nav-btn">导航</span>'+
         ' <ul class="toolbar">'+
         '<li><a href="turn?target=stu_pages/mainPage">首页</a></li>'+
-        '<li><a href="material">资料</a></li>'+
-        '<li><a href="homework">作业</a></li>'+
         '<li><a href="exam">考试</a></li>'+
         '<li><a href="cinforms">通知</a></li>'+
         '<li><a href="turn?target=stu_pages/discussion">讨论</a></li>'+

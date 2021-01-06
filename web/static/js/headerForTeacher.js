@@ -13,13 +13,11 @@ $().ready(function(e) {
         '<span class="nav-btn">导航</span>'+
         ' <ul class="toolbar">'+
         '<li><a href="turn?target=tea_pages/subjects">课程中心</a></li>'+
-        '<li><a href="material">资料</a></li>'+
-        '<li><a href="homework">作业</a></li+>'+
+        '<li><a href="course">首页</a></li>'+
         '<li><a href="exam">考试</a></li>'+
         '<li><a href="cinforms">通知</a></li>'+
         '<li><a href="turn?target=tea_pages/discussion">讨论</a></li>'+
         '<li><a href="turn?target=tea_pages/analysis">统计</a></li>'+
-        // '<li><a href="turn?target=tea_pages/local-setting">管理</a></li>'+
         '</ul>'+
         '</div>'+
         '<div class="logo"><img src="../static/images/logo.png" height="90vh" alt="官网logo" title=""></div>'+
@@ -36,31 +34,6 @@ $().ready(function(e) {
         'Copyright © 2020 西南财经大学经济信息工程学院 版权所有'+
         '</div>'
     );
-
-    //页面跳转后给导航栏添加激活样式
-    var nc=pageName();
-    //alert(nc)
-    $('.toolbar li').find("a[href='"+nc+"']").addClass("active");
-    /*		if(nc.indexOf("ar") != -1){
-            $('.toolbar li a').eq(0).addClass("active");
-            }
-    */
-
-    $(function(){
-        $(".aFloatTools_Show").click(function(){
-            //alert("11")
-            $('.divFloatToolsView').animate({width:'show',opacity:'show'},100,function(){$('.divFloatToolsView').show();});
-            $('.aFloatTools_Show').hide();
-            $('.aFloatTools_Hide').show();
-        });
-        $(".aFloatTools_Hide").click(function(){
-            //alert("22")
-            $('.divFloatToolsView').animate({width:'hide', opacity:'hide'},100,function(){$('.divFloatToolsView').hide();});
-            $('.aFloatTools_Show').show();
-            $('.aFloatTools_Hide').hide();
-        });
-    });
-
     //移动端 首页导航和文档中心-文章导航伸缩功能
     var win_w=$(window).width();
     if(win_w<767){
@@ -76,21 +49,6 @@ $().ready(function(e) {
         })
     }
 
-    //返回顶部
-    $(window).scroll(function(){
-        if($(window).scrollTop()>800)
-            $("#go_top").show();
-        else
-            $("#go_top").hide();
-    });
-    $("#go_top").click(function(){
-        $('body,html').animate({ scrollTop: 0 }, 500)
-    });
-
-    $("#testDr a").click(function(){
-        $("#testDr a").removeClass("active");
-        $(this).addClass("active");
-    })
 
 
 });

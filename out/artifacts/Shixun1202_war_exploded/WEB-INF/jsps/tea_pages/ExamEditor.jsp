@@ -216,7 +216,7 @@
 <ul id="rootContainer" num="0">
     <br><br><br><br>
     <li>
-        作业名称: <input type='text' id="workname"/>
+        考试名称: <input type='text' id="workname"/>
         <button class="submitWork" action="${pageContext.request.contextPath}/work/insertExam">提交</button>
     </li>
     <li>

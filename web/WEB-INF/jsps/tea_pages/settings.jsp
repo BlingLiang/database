@@ -109,11 +109,11 @@
                 </li>
                 <li onclick="switchItem('changePassword')" name="radio">
                     <a href="#">修改密码</a>
-                </li>
-                <li onclick="switchItem('headImage')" name="radio">
-                    <a href="#">修改头像</a>
-                </li>
-            </ul>
+<%--                </li>--%>
+<%--&lt;%&ndash;                <li onclick="switchItem('headImage')" name="radio">&ndash;%&gt;--%>
+<%--&lt;%&ndash;                    <a href="#">修改头像</a>&ndash;%&gt;--%>
+<%--                </li>--%>
+<%--            </ul>--%>
 
         </div><!--col-sm-2 end-->
 
@@ -178,17 +178,17 @@
             </div>
         </div>
 
-        <div class="col-xs-12 col-sm-10 pd-xs-l25 mg-xs-t15" id="headImage" style="display: none">
-            <div norap class="over-hide bg-fff pd-all-15 ">
-                <h3 class="color-blue2 mg-b25">修改头像</h3>
-                    <img src="../static/images/shopnc.png" width="400vw" height="400vh" style="top:0vh" class="headIMG" alt=""/>
-                    <img src="../static/images/lx_1.jpg" width="100vw" height="100vh" class="img-circle" class="headIMG">
-                    <form method="POST" action="https://your.domain.com/upload"  enctype="multipart/form-data" class="headIMG">
-                        <input type="file" style="float: left"/>
-                        <button type="submit" name="submit" class="custom-btn btn-10 headIMG">确认修改</button>
-                    </form>
-                </div>
-            </div>
+<%--        <div class="col-xs-12 col-sm-10 pd-xs-l25 mg-xs-t15" id="headImage" style="display: none">--%>
+<%--            <div norap class="over-hide bg-fff pd-all-15 ">--%>
+<%--                <h3 class="color-blue2 mg-b25">修改头像</h3>--%>
+<%--                    <img src="../static/images/shopnc.png" width="400vw" height="400vh" style="top:0vh" class="headIMG" alt=""/>--%>
+<%--                    <img src="../static/images/lx_1.jpg" width="100vw" height="100vh" class="img-circle" class="headIMG">--%>
+<%--                    <form method="POST" action="https://your.domain.com/upload"  enctype="multipart/form-data" class="headIMG">--%>
+<%--                        <input type="file" style="float: left"/>--%>
+<%--                        <button type="submit" name="submit" class="custom-btn btn-10 headIMG">确认修改</button>--%>
+<%--                    </form>--%>
+<%--                </div>--%>
+<%--            </div>--%>
 
 
             <p></p>
