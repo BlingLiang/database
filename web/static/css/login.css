@@ -1,0 +1,152 @@
+
+.login_bg{
+    position: absolute;
+    background-image: url("../images/image_login.png");
+    background-size: 100% 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.login_form{
+    position: absolute;
+    /*top:10vh ;*/
+    top: 10vh;
+    left: 7vw;
+    width: 400px;
+    /*background-color: red;*/
+    text-align: center;
+    padding: 50px;
+
+}
+.form_word{
+    font-size: 2.3em;
+
+
+    color: #0f91ed;
+}
+.large-fontsize{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.custom-btn {
+    width: 320px;
+    height: 60px;
+    color: #fff;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-10 {
+    background: rgb(22, 9, 240);
+    background: linear-gradient(
+            0deg,
+            rgba(22, 9, 240, 1) 0%,
+            rgba(49, 110, 244, 1) 100%
+    );
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.btn-10:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+}
+.btn-10:hover {
+    color: #fff;
+    border: none;
+    background:linear-gradient(
+            0deg,
+            rgba(2, 126, 251, 1) 0%,
+            rgba(0, 3, 255, 1) 100%);
+}
+.btn-10:hover:after {
+    background: rgb(0, 3, 255);
+    background: linear-gradient(
+            0deg,
+            rgba(2, 126, 251, 1) 0%,
+            rgba(0, 3, 255, 1) 100%
+    );
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.custom-text {
+    width: 320px;
+    height: 50px;
+    color: grey;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-9 {
+    background: rgb(22, 9, 240);
+    background: linear-gradient(
+            0deg,
+            rgba(22, 9, 240, 1) 0%,
+            rgba(49, 110, 244, 1) 100%
+    );
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.btn-9:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+}
+.btn-9:hover {
+    color: #fff;
+    border: none;
+    background:linear-gradient(
+            0deg,
+            rgba(2, 126, 251, 1) 0%,
+            rgb(0, 255, 255) 100%);
+}
+.btn-9:hover:after {
+    background: rgb(0, 255, 255);
+    background: linear-gradient(
+            0deg,
+            rgba(2, 126, 251, 1) 0%,
+            rgb(0, 255, 255) 100%
+    );
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
