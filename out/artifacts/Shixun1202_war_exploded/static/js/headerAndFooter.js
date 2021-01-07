@@ -19,7 +19,7 @@ $().ready(function (e) {
         '<li><a href="turn?target=stu_pages/settings">个人中心</a></li>' +
         '</ul>' +
         '</div>' +
-        '<div class="logo"><img src="../static/images/logo.png" height="90vh" alt="官网logo" title=""></div>' +
+        // '<div class="logo"><img src="../static/images/logo.png" height="90vh" alt="官网logo" title=""></div>' +
         '</div>' +
         '</div>' +
         '</div>'

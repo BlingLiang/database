@@ -20,7 +20,7 @@ $().ready(function(e) {
         '<li><a href="turn?target=tea_pages/analysis">统计</a></li>'+
         '</ul>'+
         '</div>'+
-        '<div class="logo"><img src="../static/images/logo.png" height="90vh" alt="官网logo" title=""></div>'+
+        // '<div class="logo"><img src="../static/images/logo.png" height="90vh" alt="官网logo" title=""></div>'+
         '<hr>'+
         '</div>'+
         '</div>'+

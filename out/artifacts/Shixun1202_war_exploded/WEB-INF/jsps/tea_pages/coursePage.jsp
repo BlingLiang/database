@@ -43,7 +43,6 @@
 
 
 <div class="footer"></div>
-<div class="footer-first font12 footer-flow">
-    Copyright © 2020 西南财经大学经济信息工程学院 版权所有
-</div>
+
+
 </BODY>
